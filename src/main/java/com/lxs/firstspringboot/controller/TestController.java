@@ -18,4 +18,14 @@ public class TestController {
     public String getMsg(String str){
         return str;
     }
+
+    /**
+     * test
+     * @param s
+     * @param a
+     */
+    @RequestMapping("/test")
+    public void getMsg1(String s,Integer a){
+        System.out.println("dsad");
+    }
 }
